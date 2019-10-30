@@ -1,11 +1,11 @@
 dynGeoConfig = {
 
-    key: 'AIzaSyAEtLcFhV6K92LLKPC8IeK4MyX6XnvdswQ',
+    key: '',
   
-    //latitude: 61.21744,
-    //longitude: -73.977482,
+    latitude: 61.21744,
+    longitude: -73.977482,
   
-    sheetId: '17mlDB8LBvpaRWPI-f7OAcv4vM_O3qsUipvMB3w8SArU',
+    sheetId: '',
 
     sheetPage: 1,
     
