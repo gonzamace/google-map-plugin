@@ -1,0 +1,94 @@
+#mapAreaContainer {
+  font-size: 14px;
+}
+
+#infoWindow{
+  font-family: inherit;
+  background-color: #fff;
+  position: relative;  
+  border-radius: 10px;
+  width: 45%;
+  height: auto;
+}
+
+#infoWindow:before {
+    content: "";
+    position: absolute;
+    top: 38%;
+    left: 100%;
+    width: 0;
+    border-left: 10px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+#iw-close {
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  text-align: center;
+  font-family: sans-serif;
+  color: #ccc;
+}
+.iw-multiline {
+  width: 210px;
+  font-size: 9px;
+  font-family: sans-serif;
+  text-align: left;
+  top: 21px;
+  left: 14px;
+  line-height: 0.4em;
+}
+.iw-line {
+  position:relative;
+  text-align: left;
+}  
+#iw-line1 {
+  width:85%;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#iw-line2 {
+  width: 95%;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#iw-line3 {
+  margin-bottom: 5px;
+  margin-left: 5px;
+  width:95%;
+}
+
+#zoomContainer{
+  visibility: visible;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 2.6em;
+}
+.zoomBox{
+  position: relative;
+  width: 2.4em;
+  height: 2em;
+  background: #FF681F;
+  cursor: pointer;
+  
+}
+.zoomButton{
+  font-weight: 800;
+  font-size: 1.8em;
+  color: #FFF;
+  width: 100%;
+  text-align: center;
+}
+.zoomMinus {
+  margin-top: -0.1em;
+}
+#wait_api{
+  position:relative;
+    top:0;
+    right:0;
+}
