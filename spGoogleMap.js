@@ -1,9 +1,9 @@
-//$.getScript("https://www.gavondet.com.ar/cv/proxy.php?filename=/gmaceira/SP-Plugins/sppGoogleMap/spGoogleMap.js" );
+
 var spGoogleMap = {
 
   defaults: {
     content : undefined,
-    mapApiKey: 'AIzaSyAEtLcFhV6K92LLKPC8IeK4MyX6XnvdswQ',
+    mapApiKey: '',
     latitude: 61.21744,
     longitude: -73.977482,
     sheetId: undefined,
